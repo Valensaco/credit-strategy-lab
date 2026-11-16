@@ -1,0 +1,10 @@
+# Raw Kaggle data must never be committed (competition rules)
+data/
+*.csv.zip
+train_data.csv
+train_labels.csv
+*.parquet
+kaggle.json
+.env
+__pycache__/
+.DS_Store
