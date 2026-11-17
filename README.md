@@ -4,6 +4,8 @@
 
 > Built on the [American Express Default Prediction](https://www.kaggle.com/competitions/amex-default-prediction) dataset.
 
+**Live app:** https://credit-strategy-lab.streamlit.app/
+
 ## Why this project
 
 Most default models stop at the AUC. A lender still has to answer: **where do we draw the line?** This project follows the model all the way to that decision:
