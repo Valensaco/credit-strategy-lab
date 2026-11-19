@@ -60,6 +60,10 @@ streamlit run app.py
 
 Full code: [`notebooks/credit_risk_model.ipynb`](notebooks/credit_risk_model.ipynb) (runs in Google Colab).
 
+## Power BI dashboard
+
+A Power BI report built on the same summary tables (`app_data/threshold_grid.csv`): approval rate and default rate across cut-offs, with a sample filter (Train, Test 1, Test 2). Open `powerbi/credit-strategy-dashboard.pbix` in Power BI Desktop (Windows). `approval_rate` is a calculated column, `n_accepted / n_total`, added in Power Query.
+
 ## Data note
 
 The competition data can't be redistributed (and the raw file is 16 GB), so this repository contains **no customer-level data**: only the trained model and summary tables in `app_data/`, all produced by the notebook. To rebuild everything, download the data from Kaggle and run the notebook.
