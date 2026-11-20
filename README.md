@@ -62,7 +62,7 @@ Full code: [`notebooks/credit_risk_model.ipynb`](notebooks/credit_risk_model.ipy
 
 ## Power BI dashboard
 
-A Power BI report built on the same summary tables (`app_data/threshold_grid.csv`): approval rate and default rate across cut-offs, with a sample filter (Train, Test 1, Test 2). Open `powerbi/credit-strategy-dashboard.pbix` in Power BI Desktop (Windows). `approval_rate` is a calculated column, `n_accepted / n_total`, added in Power Query.
+A Power BI report built on the same summary tables from the app. It has a line chart of approval rate and default rate across cut-offs, a threshold slicer, three KPI cards (average approval rate, average revenue and average default rate at the chosen cut-off) and a column chart of default rate by risk bin (1 is the safest, 10 the riskiest), all for the Test 2 sample. The cut-off data comes from `app_data/threshold_grid.csv`. Open `powerbi/credit-strategy-dashboard.pbix` in Power BI Desktop (Windows). `approval_rate` is a calculated column, `n_accepted / n_total`, added in Power Query. The risk-bin table is entered directly in the report.
 
 ## Data note
 
